@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style-login.css">
+</head>
+
+<body>
+    <main>
+        <section id="sectionlogo">
+            <div id="cads">
+                <p id="p1"><strong>Cadatre-se Grátis</strong> <br>Se voê nao tem uma conta <br>nosso site
+                    cadastre-se Aqui!!!!</p>
+                    <a href="cadastro.html"><button id="sign">Cadatre-se</button></a>
+            </div>
+        </section>
+
+        <section id="sectionform">
+            <form action="" method="get">
+                <div >
+                    <h1 id="log">LOGIN</h1 >
+                    <div class="label">
+                        <label for="email">EMAIL</label>
+                    </div>
+                    <div>
+                        <input type="email" name="emai" id="emai" class="input email">
+                    </div>
+                    <div class="label sen">
+                        <label for="senha">SENHA</label>
+                    </div>
+                    <div>
+                        <input type="password" name="senn" id="senn" class="input senha" min="4">
+                    </div>
+                    <div id="">
+                        <input type="submit" value="LOGIN" id="btlogin" onclick="login(); return false" >  
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

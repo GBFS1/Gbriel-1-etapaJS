@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+    color: var(--c1);
+}
+:root{
+    --c1:#181717;
+    --c2:#fff;
+    --c3:#C78300;
+    --c4: #04518A;
+    --c5: #D9D9D9;
+    --c6:#18171753;
+}
+header{
+    width: 100%;
+    background-color: var(--c4);
+    color: #fff;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+#logo{
+padding: 30px;
+} 
+#ff{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--c3);
+    height: 100%;
+    color: var(--c1);
+    margin-top: 180px;
+    padding: 30px;
+    width: 100%;
+ }
+ footer{
+    text-align: center;
+    color: var(--c1);
+    background-color: var(--c2);
+    width: 100%;
+ }
+ footer > p{
+    padding: 5px;    
+}
+.img2{
+    height: 30px;
+    width: 30px;
+
+}
+#ff{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--c3);
+    height: 100%;
+    color: var(--c1);
+    margin-top: 180px;
+    padding: 30px;
+    
+ }
+td > img{
+  width: 40px;
+  height: 70px;
+}
+main, aside {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.413);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: var(--);
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(238, 238, 238);
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(219, 219, 219);
+}
+
+table td {
+    padding: 8px 15px;
+}
+
+table img {
+    width: 100px;
+}
+
+form input[type=submit] {
+    margin-top: 10px;
+    background-color: green;
+    padding: 5px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+form input[type=number] {
+    font-size: 1.3em;
+    color: rgb(76, 76, 76);
+}
+
+#res {
+    text-align: center
+}
+.ffli{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.ffp{
+    margin-left: 20px;
+}
+#h1{
+    color: var(--c1);
+}
+#botao{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 30px;
+    background-color: var(--c4);
+    color: var(--c2);
+    transition: 1s all;
+}
+#botao:hover{
+    box-shadow: var(--c6) 8px 8px 8px ;
+}
+#slapo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ul{
+    display: flex;
+    flex-direction: column;
+}
+#lista{
+    display: flex;
+    flex-direction: column;
+}
+.input-numbre{
+    padding: 10px;
+    border-radius: 30px;
+    transition: 1s all;
+    outline: 0;
+}
+.input-numbre:hover{
+    border-radius: 0;
+    cursor: pointer;
+}
